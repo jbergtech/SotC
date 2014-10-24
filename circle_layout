@@ -1,0 +1,676 @@
+<?php
+
+/**
+
+* @package WordPress
+
+* @subpackage Secrets_Theme
+
+* Template Name: Secrets Email
+
+*/
+
+?>
+
+
+
+<html>
+
+
+
+<head>
+
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+
+
+<title>Secrets of the Day Newsletter</title>
+
+
+
+<style type="text/css">
+
+
+
+body, html, p {
+
+	font-family: Verdana;
+
+	font-size: 11px!important;
+
+	font-weight: normal;
+
+	color: #222;	
+
+}
+
+
+
+a img { 
+
+	border-style: none; 
+
+	border: none;
+
+}
+
+/** addition for use of circular images in a new template **/
+.circular-image img {
+	width: 300px;
+	height: 300px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	-ms-border-radius: 150px;
+	-o-border-radius: 150px;
+	border-radius: 150px;
+}
+
+a, a:link, a:active, a:visited {color:#d11a20;}
+
+a:hover {color:#888;}
+
+
+
+.email_wrap {
+
+	font-family: Verdana;
+
+	font-size: 14px;
+
+	font-weight: normal;
+
+	line-height: 1.3em;
+
+	color: #333333;
+
+	margin: 0 0 20px 0;
+
+	padding: 0;
+
+}
+
+
+
+.email_wrap a img.wp-post-image {
+
+	float: left;
+
+	margin: 3px 10px 3px 0px;
+
+}
+
+
+
+.email_wrap p a, a.more { 
+
+	color:#C00;
+
+}
+
+
+
+.email_wrap p a strong{ 
+
+	color:#C00;
+
+}
+
+
+
+.email_wrap p img {
+
+	float: left;
+
+	padding-left: 0px !important;
+
+	margin-left: 0px !important;
+
+}
+
+
+
+.wp-post-image {
+
+	width:100%;
+
+	height:auto;
+
+}
+
+
+
+.email_wrap>a {
+
+	width:100%;
+
+	height: 175px!important;
+
+	display:block!important;
+
+	overflow:hidden;
+
+}
+
+
+
+.wp_page_ad {
+
+	font-family: Verdana;
+
+	font-size: 12px;
+
+	font-weight: normal;
+
+	color: #333333;
+
+	margin: 0 0 20px 0;
+
+	padding: 0;
+
+}
+
+
+
+.wp_page_ad a {
+
+	color: #C00;
+
+}
+
+
+
+.days_summer img{
+
+margin-bottom: 5px;
+
+}
+
+
+
+.days_summer{
+
+font-size: 12px;
+
+}
+
+
+
+.sponsorbox {
+
+  background: #e5e5e5;
+
+  padding: 15px!important;
+
+}
+
+
+
+.sponsorbox  h2 {
+
+    font-size: 18px;
+
+    text-align: left;
+
+    margin-top: 0!important;
+
+  }
+
+
+
+.sponsorbox  img {
+
+    float: left;
+
+    margin: 0px 20px 0px 0;
+
+    display: block;
+
+    max-width: 100px;
+
+    height: auto;
+
+    display: block;
+
+  }
+
+
+
+.sponsorbox  p { margin: 0!important; }
+
+
+
+
+
+.footerlinks a, .footerlinks a:link, .footerlinks a:active, .footerlinks a:visited {
+
+	font-size:12px;
+
+	color:#9c9ea0!important;
+
+	text-transform:uppercase;
+
+	text-decoration:none;
+
+	}
+
+	
+
+.footerlinks li {
+
+	padding:0 5px;
+
+	display:inline-block!important;
+
+	}
+
+	
+
+.footericons {
+
+	display:inline-block;
+
+	padding:15px!important;
+
+	}
+
+
+
+</style>
+
+
+
+</head>
+
+
+
+<body>
+
+
+
+
+
+<table width="100%">
+
+
+
+<tr>
+
+  <td align="center">
+
+	 <table width="580" border="0" cellspacing="0" cellpadding="0">
+
+		<tr>
+
+			<td colspan="3" align="left" style="font-family: Verdana, serif;font-size: 9px;font-weight: normal;color:#888888;padding: 10px 5px 5px 5px; line-height:1; background:#e5e5e5;">
+
+                   <div style="float:right;">
+
+                      <a href="https://www.facebook.com/pages/Secrets-of-the-City/106151970110" target="_blank"><img src="http://www.secretsofthecity.com/images/icon-fb.png" alt="Facebook" /></a>
+
+                      <a href="https://twitter.com/SecretsCity" target="_blank"><img src="http://www.secretsofthecity.com/images/icon-twitter.png" alt="Twitter" /></a>
+
+                      <a href="http://secretsofthecity.com/rss" target="_blank"><img src="http://www.secretsofthecity.com/images/icon-rss.png" alt="RSS" /></a>
+
+                  </div>
+
+            
+
+                  <p style="padding-top:5px;">Having trouble viewing this email? <a href="http://www.secretsofthecity.com/secrets-email/" style="font-family: Verdana, serif;font-size: 9px;font-weight: normal;color: #666;">Read it online!</a></p>
+
+             </td>
+
+		</tr>
+
+		
+
+        <tr>
+
+			<td colspan="3">
+
+               <a href="http://www.secretsofthecity.com" target="_blank"><img src="http://www.secretsofthecity.com/images/header-img.png" alt="Secrets of the City" /></a>
+
+            </td>
+
+		</tr>
+
+	
+
+	
+
+        <tr>
+
+			<td colspan="3">
+
+	<h3 style="text-align:center">
+
+	“It would be amazing if we brought back Jam Lines.”
+
+	</h3>
+
+ <h4 style="font-family: Verdana;font-size: 11px;font-weight: normal;color: #666;margin: 20px 0 10px 0;padding:0;text-transform: uppercase; text-align:center;">Really ramping up on the Halloween Events&raquo; <?php echo date('l, M. jS'); ?></h4>
+
+
+
+
+
+			<?php $events_query = new WP_Query(); 
+
+				$events_query->query('category_name=events&showposts=3');
+
+				global $wp_query;
+
+						$wp_query->in_the_loop = true; 
+
+						while ($events_query->have_posts()): 
+
+						$events_query->the_post(); ?>	
+
+
+
+						<h2 style="font-family: Verdana;font-size: 28px; font-weight: bold; color: #111111; margin: 0 0 20px 0;padding: 0; text-transform:uppercase;">						  <a href="<?php the_permalink(); ?>" style="color: #000000;text-decoration:none;">
+
+							  <?php the_title(); ?>
+
+							  </a>
+
+						</h2>
+
+
+
+						<div class="email_wrap">
+
+				              <?php if ( has_post_thumbnail() ) { 
+
+								echo "<a href=\"";
+
+								echo the_permalink();
+
+								echo "\">";
+
+					  			the_post_thumbnail('thumbnail', array('title' => ""));
+
+								echo "</a> ";
+
+								the_content();
+
+							} else {
+
+								the_content(); 
+
+							} ?>
+
+						<img src="http://www.secretsofthecity.com/images/hr.png" />
+
+						</div>
+
+						<div style="clear:both;"></div>
+
+					<?php endwhile; ?>
+
+            </td>
+
+		</tr>
+
+
+
+<tr>
+
+			<td colspan="3">
+
+
+
+	<div class="row sponsorbox">
+
+			<?php while ( have_posts() ) : the_post(); ?>
+
+
+
+			<?php $sponsor_query = new WP_Query(); 
+
+				$sponsor_query->query('category_name=sponsorbox&showposts=1');
+
+				global $wp_query;
+
+						$wp_query->in_the_loop = true; 
+
+						while ($sponsor_query->have_posts()): 
+
+						$sponsor_query->the_post(); ?>	
+
+				              <?php if ( has_post_thumbnail() ) { 
+
+								the_post_thumbnail('large', array('title' => "")); ?>
+
+	  						    <h2><?php the_title(); ?></h2>
+
+								<?php the_content();
+
+							} else { ?>
+
+								<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+
+								<?php the_content(); 
+
+							} ?>
+
+					<?php endwhile; ?>
+
+			<?php endwhile; // end of the loop. ?>
+
+    </div><!-- .row -->
+
+
+
+            </td>
+
+		</tr>
+
+        
+
+<tr>
+
+			<td colspan="3">
+
+ <h4 style="font-family: Verdana;font-size: 11px;font-weight: normal;color: #666;margin: 20px 0 10px 0;padding:0;text-transform: uppercase; text-align:center;">Send us your other rumors btw</h4>
+
+
+
+<!-- begin weekend -->
+
+
+
+			<?php $email_posts = new WP_Query('category_name=email-secrets&orderby=date&order=desc&showposts=4'); ?>
+
+
+
+			<?php while ($email_posts->have_posts()) : $email_posts->the_post(); ?>
+
+
+
+			<h2 style="font-family: Verdana;font-size: 28px; font-weight: bold; color: #111111; margin: 0 0 20px 0;padding: 0; text-align:center; text-transform:uppercase;"><a href="<?php the_permalink(); ?>" style="color: #000000;text-decoration:none;">
+
+					  <?php the_title(); ?>
+
+				  </a>
+
+			</h2>
+
+			<div class="email_wrap">
+
+	              <?php if ( has_post_thumbnail() ) { 
+
+					echo "<a href=\"";
+
+					echo the_permalink();
+
+					echo "\">";
+
+		  			the_post_thumbnail('thumbnail', array('title' => ""));
+
+					echo "</a> ";
+
+					the_content();
+
+				} else {
+
+					the_content(); 
+
+				} ?>
+
+			<img src="http://www.secretsofthecity.com/images/hr.png" />
+
+			</div>
+
+			<?php endwhile; ?>
+
+
+
+            </td>
+
+		</tr>
+
+
+
+ <tr>
+
+			<td colspan="3" style="padding-bottom:40px;">
+
+               <a href="http://www.secretsofthecity.com/category/secrets" target="_blank"><img src="http://www.secretsofthecity.com/images/btn-view-more.png" alt="Secrets of the City" /></a>
+
+            </td>
+
+		</tr>
+
+
+
+       
+
+ <tr>
+
+			<td width="193" style="text-align:justify; font-weight:normal; color: #666; padding:15px 15px 15px 0;">
+
+                <h4 style="text-transform:uppercase; font-size:15px; color:#222; font-weight:bold; text-align:center;">Forward to a Friend</h4>
+
+                <p style="padding-bottom:20px;">Know someone who might be interested in the email? Please <a href="*|FORWARD|*" style="color: #d11a20;">forward</a> this email to a friend.</p>
+
+                <a href="*|FORWARD|*" target="_blank" style="text-align:center!important; margin-left:30px;"><img src="http://www.secretsofthecity.com/images/btn-forward.png" alt="Forward to a Friend" /></a>
+
+            </td>
+
+
+
+			<td width="193" style="text-align:justify; font-weight:normal; color: #666; padding:15px;">
+
+                <h4 style="text-transform:uppercase; font-size:15px; color:#222; font-weight:bold; text-align:center;"">Share Your<br>Secrets</h4>
+
+                <p style="padding-bottom:20px;">Do you have a secret or story you’d like to share? <a href="http://www.secretsofthecity.com/contact" style="color: #cc0000;">Contact us</a> to suggest something!</p>
+
+                <a href="http://www.secretsofthecity.com/contact" target="_blank" style="text-align:center!important; margin-left:30px;" ><img src="http://www.secretsofthecity.com/images/btn-contact.png" alt="Contact Us" /></a>
+
+            </td>
+
+
+
+			<td width="193" style="text-align:justify; font-weight:normal; color: #666; padding:15px 0 15px 15px;">
+
+                <h4 style="text-transform:uppercase; font-size:15px; color:#222; font-weight:bold; text-align:center;">Secrets <br>Awards</h4>
+
+                <p style="padding-bottom:20px;">See all of our SotC <a href="http://www.secretsofthecity.com/category/sotc-awards" target="_blank">award winners</a> who are pretty great.</p>
+
+                <a href="http://www.secretsofthecity.com/categories" target="_blank" style="text-align:center!important;  margin-left:30px;"><img src="http://www.secretsofthecity.com/images/btn-categories.png" alt="View our Categories" /></a>
+
+            </td>            
+
+		</tr>
+
+
+
+     <tr>
+
+			<td colspan="3" style="height:80px;">&nbsp;
+
+				
+
+            </td>
+
+		</tr>
+
+
+
+        <tr>
+
+			<td colspan="3" style="background:#262626;text-align:center;">
+
+               <a href="http://www.secretsofthecity.com" target="_blank"><img src="http://www.secretsofthecity.com/images/footer-logo.png" alt="Secrets of the City" /></a>
+
+               <ul class="footerlinks" style="margin:20px 0;padding:0; list-style:none;">
+
+                   <li><a href="http://www.secretsofthecity.com/category/events">Events</a></li>
+
+                   <!-- <li><a href="#">Restaurants</a></li> -->
+
+                   <li><a href="http://www.secretsofthecity.com/tag/studio-visit">Studio Visits</a></li>
+
+                   <li><a href="http://www.secretsofthecity.com/about-us">About Us</a></li>
+
+                   <li><a href="http://www.secretsofthecity.com/contact">Contact</a></li>
+
+               </ul>
+
+               
+
+        <div class="footericons">
+
+              <a href="https://www.facebook.com/pages/Secrets-of-the-City/106151970110" target="_blank"><img src="http://www.secretsofthecity.com/images/icon-fb-footer.png" alt="Facebook" /></a>
+
+              <a href="https://twitter.com/SecretsCity" target="_blank"><img src="http://www.secretsofthecity.com/images/icon-twitter-footer.png" alt="Twitter" /></a>
+
+              <a href="http://secretsofthecity.com/rss" target="_blank"><img src="http://www.secretsofthecity.com/images/icon-rss-footer.png" alt="RSS" /></a>
+
+          </div>          
+
+       
+
+		<p style="font-family: Verdana, serif;font-size: 10px;font-weight: normal;color: #555555;padding: 5px 0 10px 0;">
+
+			*|LIST:DESCRIPTION|*.<br />
+
+			Not interested anymore? <a href="*|UPDATE_PROFILE|*" style="font-family: Verdana, serif;font-size: 10px;font-weight: normal;color: #555555;">Unsubscribe</a> from this daily email. 
+
+		</p>
+
+
+
+		<p style="font-family: Verdana, serif;font-size: 10px;font-weight: normal;color: #555555;padding: 5px 0 10px 0;">
+
+			<a href="*|LIST:URL|*" style="color: #555555;">*|LIST:NAME|*</a> from *|LIST:COMPANY|*<br />
+
+			*|LIST:ADDRESS|*<br />
+
+			*|LIST:PHONE|*
+
+		</p>
+
+              
+
+            </td>
+
+		</tr>
+
+
+
+</table>
+
+
+
+
+
+
+
+</body>
+
+
+
+</html>
