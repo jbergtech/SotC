@@ -58,13 +58,7 @@ a img {
 
 /** addition for use of circular images in a new template **/
 .circular-image img {
-	width: 300px;
-	height: 300px;
-	-webkit-border-radius: 150px;
-	-moz-border-radius: 150px;
-	-ms-border-radius: 150px;
-	-o-border-radius: 150px;
-	border-radius: 150px;
+	
 }
 
 a, a:link, a:active, a:visited {color:#d11a20;}
@@ -88,16 +82,37 @@ a:hover {color:#888;}
 	margin: 0 0 20px 0;
 
 	padding: 0;
+	
+	position: relative;
+	
+	width: 100%;
 
 }
 
+.email_wrap .left {
 
+	float: left;
+	
+	width: 35%;
+}
+
+.right {
+
+	float: right;
+	
+	width: 55%;
+}
 
 .email_wrap a img.wp-post-image {
 
 	float: left;
-
-	margin: 3px 10px 3px 0px;
+	width: 300px;
+	height: 300px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	-ms-border-radius: 150px;
+	-o-border-radius: 150px;
+	border-radius: 150px;
 
 }
 
@@ -126,16 +141,6 @@ a:hover {color:#888;}
 	padding-left: 0px !important;
 
 	margin-left: 0px !important;
-
-}
-
-
-
-.wp-post-image {
-
-	width:100%;
-
-	height:auto;
 
 }
 
